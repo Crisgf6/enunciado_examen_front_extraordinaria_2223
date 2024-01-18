@@ -1,6 +1,6 @@
 #### Examen Extraordinaria
 
-Se pide realizar una aplicación web con la misma funcionalidad (y distribución de páginas) que la siguiente: [https://front-tbyditz3fa-no.a.run.app/](https://front-tbyditz3fa-no.a.run.app/)
+Se pide realizar una aplicación web con la misma funcionalidad (y distribución de páginas) que la siguiente: [https://slow-gecko-51.deno.dev/](https://slow-gecko-51.deno.dev/)
 
 Como aspecto fundamental indicar que el front debe mostrar un mensaje de error cuando el API devuelve un error (debe ser un error controlado). No es necesario que el front revise los datos al añadir eventos, ya lo hace la API.
 

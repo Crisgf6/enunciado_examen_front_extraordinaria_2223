@@ -1,16 +1,19 @@
 #### Examen Extraordinaria
 
-Se pide realizar una aplicación web con la misma funcionalidad (y distribución de páginas) que la siguiente: [https://slow-gecko-51.deno.dev/](https://slow-gecko-51.deno.dev/)
+Se pide realizar una aplicación web que permita gestionar eventos. El alumno debe elegir la distribución de las páginas y la maquetación. La web debe:
+  * Añadir eventos
+  * Consultar eventos por fecha, pudiendo avanzar o retroceder de día en día  e insertar una fecha concreta.
+  * Borrar eventos
 
 Como aspecto fundamental indicar que el front debe mostrar un mensaje de error cuando el API devuelve un error (debe ser un error controlado). No es necesario que el front revise los datos al añadir eventos, ya lo hace la API.
 
-Se hace notar:
+Se hace notar que en la página que permita añadir eventos:
 
 *   Al añadir un evento aparece por defecto la fecha actual.
 *   Al añadir un evento aparece como hora inicial, por defecto, la hora actual.
 *   Al añadir un evento aparece como hora final, por defecto, la próxima hora.
 
-Para ello se partirá del proyecto github xxxx que ya incluye el API Rest que se debe utilizar.
+Para ello se partirá del proyecto github [https://github.com/Nebrija-Programacion/enunciado_examen_front_extraordinaria_2223](https://github.com/Nebrija-Programacion/enunciado_examen_front_extraordinaria_2223/) que ya incluye el API Rest que se debe utilizar.
 
 ##### Los endpoints del API Rest son:
 

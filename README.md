@@ -17,7 +17,7 @@ Para ello se partirá del proyecto github [https://github.com/Nebrija-Programaci
 
 ##### Los endpoints del API Rest son:
 
-**Al lanzar el API con docker-compose en  local escuchará en http://localhost:4000**
+**Al lanzar el API con docker-compose en  local escuchará en http://localhost:4000**, también existe un API desplegada en https://slow-gecko-51.deno.dev/ . Si el alumno no consigue lanzar con docker-compose puede usar dicha API.
 
 **GET /events**
 

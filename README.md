@@ -25,15 +25,15 @@ Para ello se partirá del proyecto github xxxx que ya incluye el API Rest que se
 **POST /addEvent**
 
 Añade un evento cuyos datos se pasan a través del body, por ejemplo
-
+```json
 {
-
-   "titulo":"Cena con Juan y Maria",  
-   "fecha": "2023-06-25",  
-   "inicio: 21,  
-   "fin": 23,  
-   "invitados": \["Juan", "Maria"\]  
+   "title": "Cena con Juan y Maria",
+   "date": "2023-06-25T00:00:00.000Z",
+   "init": 21,
+   "end": 23,
+    "participants": ["Juan","Maria"]
 }
+```
 
 El API realiza las siguientes comprobaciones, por lo que NO es necesario realizarlas en el front:
 

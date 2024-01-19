@@ -50,7 +50,12 @@ const ShowEvents = (props: EventsProps) => {
             <Menu>
                 <h1>
                     Día: {" "}
-                    {props.date.toLocaleDateString()}
+                    {props.date.toLocaleDateString("es-ES", {
+                        weekday: "long",
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                    })}
                 </h1>
                 {events.length === 0 && (<h2>No hay eventos</h2>)}
                 <Eventos>
